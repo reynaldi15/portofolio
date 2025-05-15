@@ -25,7 +25,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  "Laravel, Phyton, PHP, MongoDb, Tailwind, MySql, Javascript , ";
+  ", Java, PHP, Phyton, Javascript, Laravel, Springboots, MySql";
 
 export const PROJECTS = [
   {
@@ -34,7 +34,7 @@ export const PROJECTS = [
     description:
       "A full-featured marketplace website built with laravel,Liveware and vite.js",
     imgSrc: project1,
-    link: "https://example.com/ecommerce-website",
+    link: "https://github.com/reynaldi15/nusantara-mountain",
   },
   {
     id: 2,
@@ -42,30 +42,30 @@ export const PROJECTS = [
     description:
       "A marketplace website to provide people to rental the basketball court.",
     imgSrc: project2,
-    link: "https://example.com/social-media-app",
+    link: "https://github.com/reynaldi15/ballers",
   },
   {
     id: 3,
-    title: "Church Website",
+    title: "KEPUl Inventory API",
     description:
-      "A church information platform with user authentication and management infromation.",
+      "A System managment inventory company base on website Server side.",
     imgSrc: project3,
-    link: "https://example.com/portfolio-website",
+    link: "https://github.com/reynaldi15/kepul",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "KEPUL Thymeleaf",
     description:
-      "A blogging platform with user authentication and content management.",
+      "A System managment inventory company base on website Client Side.",
     imgSrc: project4,
-    link: "https://example.com/blog-platform",
+    link: "https://github.com/fazair1/kepulthymeleaf",
   },
   {
     id: 5,
-    title: "Task Management Tool",
-    description: "A task management tool to organize and prioritize work.",
+    title: "Rental Kita-kita",
+    description: "A Rental car website using laravel to help customer rent car and travel.",
     imgSrc: project5,
-    link: "https://example.com/task-management-tool",
+    link: "https://github.com/reynaldi15/rentalkitakita",
   },
   {
     id: 6,
@@ -73,36 +73,56 @@ export const PROJECTS = [
     description:
       "An online learning platform offering various courses and resources.",
     imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
+    link: "https://github.com/jepris/kursus-online",
   },
   {
     id: 7,
-    title: "Fitness Tracker",
-    description: "A mobile application to track fitness activities and goals.",
+    title: "Holiday Package Prediction",
+    description: "A System to predict package for customer to increase income company using machine learning.",
     imgSrc: project7,
-    link: "https://example.com/fitness-tracker",
+    link: "https://github.com/reynaldi15/Rakamin-Analytic-Adventurers",
   },
-  {
-    id: 8,
-    title: "Recipe App",
-    description: "An app for browsing and saving various cooking recipes.",
-    imgSrc: project8,
-    link: "https://example.com/recipe-app",
-  },
-  {
-    id: 9,
-    title: "Weather Dashboard",
-    description:
-      "A weather dashboard providing current weather data and forecasts.",
-    imgSrc: project9,
-    link: "https://example.com/weather-dashboard",
-  },
+  // {
+  //   id: 8,
+  //   title: "Recipe App",
+  //   description: "An app for browsing and saving various cooking recipes.",
+  //   imgSrc: project8,
+  //   link: "https://example.com/recipe-app",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "A weather dashboard providing current weather data and forecasts.",
+  //   imgSrc: project9,
+  //   link: "https://example.com/weather-dashboard",
+  // },
 ];
 
 export const ABOUT =
-  "As a fresh graduate with some experience, I am always learning new things in the world of technology related to data and websites and other things. With a strong foundation in technology, I excel in building robust and scalable solutions. My expertise includes working with PHP and Javascript frameworks such as Laravel and React.js, still learning more about Python using spark, and proficiency in databases such as MongoDB and SQL. I am passionate about continuous learning and keeping up to date with the latest industry trends, which allows me to apply modern practices and tools in my projects.";
-
+  "As a fresh graduate with some experience, I am always developing my skills by learning new things in the tech world related to data and websites and other things. With a strong foundation in technology, I excel in building robust and scalable solutions. My expertise includes working with Java, PHP and Javascript frameworks such as Springboots, Laravel and React.js, still learning more about Python using spark, and proficiency in databases such as Mysql and SQL server. I am passionate about continuous learning and keeping up to date with the latest industry trends, which allows me to apply modern practices and tools in my projects.";
 export const EXPERIENCES = [
+  {
+    company: "Juara Coding",
+    role: "Java Back-end",
+    year: "02/2023 - 04/2025",
+    description:
+      "Responsible for completing tasks using Java Springboots framework and Sql Server. Building projects to help the company's system with spring security and JPA. Create the Unit testing to run de QA system and fully maintance system.",
+  },
+  {
+    company: "Hand Solution",
+    role: "Java Consultant",
+    year: "11/2024 - 01/2025",
+    description:
+      "Solving Business Challenges with Modular ERP Systems: Building Microservice Architectures with HZERO and Springboots. Design and code database using MySQL MyBatis",
+  },
+  {
+    company: "Rakamin Academy",
+    role: "Data Science",
+    year: "06/2024 - 11/2024",
+    description:
+      "Develop a prediction system using machine learning, and build visualization to display data results that can be read easily for stackholder.",
+  },
   {
     company: "Freelance",
     role: "Website",
