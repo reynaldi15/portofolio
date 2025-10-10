@@ -3,6 +3,25 @@ import { motion } from "framer-motion";
 import  benson from "../assets/benson.webp"
 
 const Hero = () => {
+    const [stars, setStars] = useState([]);
+
+  useEffect(() => {
+    const generateStars = () => {
+      const newStars = [];
+      for (let i = 0; i < 50; i++) {
+        const style = {
+          left: `${Math.random() * 100}vw`,
+          width: `${Math.random() * 2 + 1}px`,
+          height: `${Math.random() * 2 + 1}px`,
+          animationDuration: `${Math.random() * 2 + 2}s`,
+          animationDelay: `${Math.random() * 2}s`,
+        };
+        newStars.push(<div key={i} className="star" style={style}></div>);
+      }
+      setStars(newStars);
+    };
+    generateStars();
+  }, []);
     const text1 = "Reynaldi";
   const text2 = "Silalahi";
 
@@ -21,6 +40,7 @@ const Hero = () => {
   };
   return (
     <section>
+        <div className="stars">{stars}</div>
         <div className="flex flex-col items-center justify-center">
             {/* <h1 className="mt-16 overflow-hidden text-center text-[12vw] font-semibold uppercase leading-none">
                 
