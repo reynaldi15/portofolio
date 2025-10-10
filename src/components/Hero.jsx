@@ -1,6 +1,7 @@
 import { LuImport } from "react-icons/lu"
 import { motion } from "framer-motion";
 import  benson from "../assets/benson.webp"
+import { useEffect, useState } from "react";
 
 const Hero = () => {
     const [stars, setStars] = useState([]);
