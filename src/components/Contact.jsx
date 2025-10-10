@@ -8,6 +8,9 @@ const Contact = () => {
             <p className="p-4 text-center text-xl">{CONTACT.text}</p>
             <p className="my-4 text-center text-2xl font-medium text-lime-300 lg:pt-6 lg:text-5xl">{CONTACT.email}</p>
             <p className="my-4 text-center text-2xl font-medium text-lime-300 lg:pb-6 lg:text-5xl">{CONTACT.phone}</p>
+            <div className="my-10">
+                    <iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/0SH7ukSIr6XqtL5BbVUR7Z?utm_source=generator" width="100%" height="152" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
         </div>
         <div className="mt-20 flex items-center justify-center gap-6">
             {SOCIAL_MEDIA_LINKS.map((link,index)=>(
