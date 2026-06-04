@@ -103,6 +103,17 @@ export const ABOUT =
   "Hey there! I'm a Software Engineer with 2+ years of experience building web applications and backend systems. I enjoy creating reliable, scalable, and maintainable solutions that help solve real business problems.My main expertise lies in Java development, especially with Spring Boot, alongside technologies like Laravel, React.js, MySQL, and SQL Server. Over the years, I've been involved in developing and maintaining applications, improving system performance, and building features that deliver value to users.I'm passionate about continuous learning and always looking for ways to sharpen my skills as a developer. Currently, I'm focused on deepening my knowledge of the Java ecosystem, software architecture, and modern backend development practices. When I'm not coding, you'll probably find me exploring new technologies, working on personal projects, or keeping up with the latest trends in software engineering.";
 export const EXPERIENCES = [
   {
+    company: "Danamas Insan Kreasi Andalan (DIKA)",
+    role: "Programer",
+    year: "06/2025 - present",
+    description: [
+      "Built and maintained internal and client-facing applications using Java Spring Boot.",
+      "Developed and supported APIs that power business operations and system integrations.",
+      "Managed SQL Server databases, ensuring efficient performance, reliability, and data consistency.",
+      "Contributed to ongoing system improvements, maintenance, and feature development to meet evolving business needs.",
+    ],
+  },
+  {
     company: "Juara Coding",
     role: "Java Back-end",
     year: "02/2023 - 04/2025",
