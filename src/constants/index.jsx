@@ -100,7 +100,7 @@ export const PROJECTS = [
 ];
 
 export const ABOUT =
-  "As a fresh graduate with some experience, I am always developing my skills by learning new things in the tech world related to data and websites and other things. With a strong foundation in technology, I excel in building robust and scalable solutions. My expertise includes working with Java, PHP and Javascript frameworks such as Springboots, Laravel and React.js, still learning more about Python using spark, and proficiency in databases such as Mysql and SQL server. I am passionate about continuous learning and keeping up to date with the latest industry trends, which allows me to apply modern practices and tools in my projects.";
+  "Hey there! I'm a Software Engineer with 2+ years of experience building web applications and backend systems. I enjoy creating reliable, scalable, and maintainable solutions that help solve real business problems.My main expertise lies in Java development, especially with Spring Boot, alongside technologies like Laravel, React.js, MySQL, and SQL Server. Over the years, I've been involved in developing and maintaining applications, improving system performance, and building features that deliver value to users.I'm passionate about continuous learning and always looking for ways to sharpen my skills as a developer. Currently, I'm focused on deepening my knowledge of the Java ecosystem, software architecture, and modern backend development practices. When I'm not coding, you'll probably find me exploring new technologies, working on personal projects, or keeping up with the latest trends in software engineering.";
 export const EXPERIENCES = [
   {
     company: "Juara Coding",
